@@ -31,20 +31,14 @@ Setup:
 Clone the Repository:
 
 bash
-复制
-编辑
 git clone https://github.com/yourusername/ai-assistant.git
 Install Dependencies:
 
 bash
-复制
-编辑
 pip install -r requirements.txt
 Run the Application:
 
 bash
-复制
-编辑
 python ai_assistant.py
 Usage:
 

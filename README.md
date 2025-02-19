@@ -15,7 +15,7 @@ Related Projects:
 CVM Runtime (AI Container): A containerized environment for deploying AI models.
 File Storage: A decentralized file storage system.
 AI Wrapper: Provides a fixed API for inference and file storage.
-PoW (Cortex Cuckoo Cycle): A proof-of-work algorithm for blockchain.
+PoW (Cuckoo Cycle): A proof-of-work algorithm for blockchain.
 Rosetta: A tool for cross-chain interoperability.
 Docker: Containerization platform for deploying applications.
 Robot: A framework for building AI-powered robots.
@@ -111,7 +111,7 @@ NUMA node1 CPU(s):   8-15,24-31
 Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid amd_dcm aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch topoext perfctr_core vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr arat npt nrip_save
 ```
 ### ubuntu
-Cortex node is developed in Ubuntu 18.04 x64 + CUDA 9.2 + NVIDIA Driver 396.37 environment, with CUDA Compute capability >= 6.1. Latest Ubuntu distributions are also compatible, but not fully tested.
+node is developed in Ubuntu 18.04 x64 + CUDA 9.2 + NVIDIA Driver 396.37 environment, with CUDA Compute capability >= 6.1. Latest Ubuntu distributions are also compatible, but not fully tested.
 Recommend:
 - cmake 3.11.0+
  ```
@@ -164,11 +164,11 @@ export LIBRARY_PATH=/usr/local/cuda/lib64/:/usr/local/cuda/lib64/stubs:$LIBRARY_
 - nvidia driver 418.67+
 - centos 7.6
 
-## Cortex Full Node
+## Full Node
 
 ### Compile Source Code (8G+ Memory suggested)
-1. git clone --recursive https://github.com/CortexFoundation/CortexTheseus.git
-2. cd CortexTheseus
+1. git clone --recursive https://github.com/Foundation/Theseus.git
+2. cd Theseus
 3. make clean && make -j$(nproc)
 
 ### It is important to pass this check of libcvm_runtime.so
@@ -188,16 +188,16 @@ libc.so.6 => /lib64/libc.so.6 (0x00007f250d980000)
 
 ### Running Bash
 
-And then, run any command to start full node `cortex`:
+And then, run any command to start full node:
 
 ```Bash
-1. cd CortexTheseus
+1. cd Theseus
 2. export LD_LIBRARY_PATH=$PWD:$PWD/plugins:$LD_LIBRARY_PATH
-3. ./build/bin/cortex
+3. ./build/bin
 
-It is easy for you to view the help document by running ./build/bin/cortex --help
+It is easy for you to view the help document by running ./build/bin/ --help
 ```
 ### Running Testnet for developers (Bernard)
 ```
-./cortex --bernard
+./ --bernard
 ```

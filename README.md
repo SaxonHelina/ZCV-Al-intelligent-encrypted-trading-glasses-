@@ -31,14 +31,20 @@ Setup:
 Clone the Repository:
 
 bash
+复制
+编辑
 git clone https://github.com/yourusername/ai-assistant.git
 Install Dependencies:
 
 bash
+复制
+编辑
 pip install -r requirements.txt
 Run the Application:
 
 bash
+复制
+编辑
 python ai_assistant.py
 Usage:
 
@@ -53,6 +59,30 @@ Thumbs Up: Confirms an action.
 Swipe Left: Switches modes.
 Open Hand: Stops the AI assistant.
 AI Training Strategy:
+
+The AI assistant employs machine learning models to enhance its decision-making capabilities. These models are trained on historical data to predict market trends and suggest optimal strategies. The training process involves:
+
+Data Collection: Gathering historical market data.
+Preprocessing: Cleaning and normalizing the data.
+Model Training: Using algorithms like neural networks to train the model.
+Evaluation: Assessing the model's performance and accuracy.
+Hardware Functionality:
+
+The AI assistant integrates with hardware components such as cameras and microphones to facilitate voice and gesture recognition. The hardware setup includes:
+
+Camera: Captures real-time video for gesture detection.
+Microphone: Records audio for voice command processing.
+Processing Unit: Handles data processing and AI computations.
+Blockchain Integration:
+
+To ensure secure and transparent data management, the AI assistant utilizes blockchain technology. This integration provides:
+
+Data Integrity: Ensures that data cannot be tampered with.
+Transparency: Allows users to view transaction histories.
+Security: Protects sensitive information through encryption.
+Note:
+
+Ensure your system has a webcam for gesture detection and a microphone for voice commands.
 
 AI wrapper (Fixed API for inference and file storage)
 https://github.com/CortexFoundation/inference
@@ -184,27 +214,3 @@ libpthread.so.0 => /lib64/libpthread.so.0 (0x00007f250dd4e000)
 libc.so.6 => /lib64/libc.so.6 (0x00007f250d980000)
 /lib64/ld-linux-x86-64.so.2 (0x00007f250ed35000)
 (If failed, run rm -rf cvm-runtime && git submodule init && git submodule update and try again)
-
-The AI assistant employs machine learning models to enhance its decision-making capabilities. These models are trained on historical data to predict market trends and suggest optimal strategies. The training process involves:
-
-Data Collection: Gathering historical market data.
-Preprocessing: Cleaning and normalizing the data.
-Model Training: Using algorithms like neural networks to train the model.
-Evaluation: Assessing the model's performance and accuracy.
-Hardware Functionality:
-
-The AI assistant integrates with hardware components such as cameras and microphones to facilitate voice and gesture recognition. The hardware setup includes:
-
-Camera: Captures real-time video for gesture detection.
-Microphone: Records audio for voice command processing.
-Processing Unit: Handles data processing and AI computations.
-Blockchain Integration:
-
-To ensure secure and transparent data management, the AI assistant utilizes blockchain technology. This integration provides:
-
-Data Integrity: Ensures that data cannot be tampered with.
-Transparency: Allows users to view transaction histories.
-Security: Protects sensitive information through encryption.
-Note:
-
-Ensure your system has a webcam for gesture detection and a microphone for voice commands

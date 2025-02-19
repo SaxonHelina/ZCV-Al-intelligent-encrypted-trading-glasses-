@@ -43,69 +43,7 @@ bash
 python ai_assistant.py
 Usage:
 ```
-### Voice Commands:
 
-"Report": Fetches the latest financial report.
-"Strategy": Adjusts the trading strategy.
-"Exit": Closes the AI assistant.
-Hand Gestures:
-
-Thumbs Up: Confirms an action.
-Swipe Left: Switches modes.
-Open Hand: Stops the AI assistant.
-AI Training Strategy:
-
-The AI assistant employs machine learning models to enhance its decision-making capabilities. These models are trained on historical data to predict market trends and suggest optimal strategies. The training process involves:
-
-Data Collection: Gathering historical market data.
-Preprocessing: Cleaning and normalizing the data.
-Model Training: Using algorithms like neural networks to train the model.
-Evaluation: Assessing the model's performance and accuracy.
-Hardware Functionality:
-
-### The AI assistant integrates with hardware components such as cameras and microphones to facilitate voice and gesture recognition. The hardware setup includes:
-
-Camera: Captures real-time video for gesture detection.
-Microphone: Records audio for voice command processing.
-Processing Unit: Handles data processing and AI computations.
-Blockchain Integration:
-
-### To ensure secure and transparent data management, the AI assistant utilizes blockchain technology. This integration provides:
-
-Data Integrity: Ensures that data cannot be tampered with.
-Transparency: Allows users to view transaction histories.
-Security: Protects sensitive information through encryption.
-
-### AI Training Strategy:
-
-The AI assistant employs machine learning models to enhance its decision-making capabilities. These models are trained on historical data to predict market trends and suggest optimal strategies. The training process involves:
-
-Data Collection: Gathering historical market data.
-Preprocessing: Cleaning and normalizing the data.
-Model Training: Using algorithms like neural networks to train the model.
-Evaluation: Assessing the model's performance and accuracy.
-
-### Note:
-
-Ensure your system has a webcam for gesture detection and a microphone for voice commands.
-
-## Related projects
-### CVM runtime (AI container)
-https://github.com/CortexFoundation/cvm-runtime
-### File storage
-Stop your cortex full node daemon, when you do this test
-
-https://github.com/CortexFoundation/torrentfs
-```
-git clone https://github.com/CortexFoundation/torrentfs.git
-cd torrentfs
-make
-./build/bin/torrent download 'infohash:6b75cc1354495ec763a6b295ee407ea864a0c292'
-./build/bin/torrent download 'infohash:b2f5b0036877be22c6101bdfa5f2c7927fc35ef8'
-./build/bin/torrent download 'infohash:5a49fed84aaf368cbf472cc06e42f93a93d92db5'
-./build/bin/torrent download 'infohash:1f1706fa53ce0723ba1c577418b222acbfa5a200'
-./build/bin/torrent download 'infohash:3f1f6c007e8da3e16f7c3378a20a746e70f1c2b0'
-```
 downloaded ALL the torrents !!!!!!!!!!!!!!!!!!!
 
 ##### *** Make sure you can download the file successfully
